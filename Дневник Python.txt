@@ -1,0 +1,128 @@
+https://yobit.net/api/3/ticker/liza_rur
+{"liza_rur":{"high":4.9999997,"low":3.36,"avg":4.17999985,"vol":85475157.2096215,"vol_cur":21054564.85622266,"last":3.98,"buy":3.97999996,"sell":3.98000000,"updated":1518756159}}
+
+https://yobit.net/api/3/info
+
+{"server_time":1518757961,"pairs":{"ltc_btc":{"decimal_places":8,"min_price":0.00000001,"max_price":10000,"min_amount":0.0001,"min_total":0.0001,"hidden":0,"fee":0.2,"fee_buyer":0.2,"fee_seller":0.2},"nmc_btc":{"decimal_places":8,"min_price":0.00000001,"max_price":10000,"min_amount":0.0001,"min_total":0.0001,"hidden":0,"fee":0.2,"fee_buyer":0.2,"fee_seller":0.2},"ppc_btc":{"decimal_places":8,"min_price":0.00000001,"max_price":10000,"min_amount":0.0001,"min_total":0.0001,"hidden":0,"fee":0.2,"fee_buyer":0.2,"fee_seller":0.2},"dash_btc":
+
+
+https://yobit.net/api/2/liza_rur/depth это наверное сделки
+
+13:59 16.02.2018
+
+>>> s = [1, 2, 3, 4, 6] #простой список
+>>> s[:] #копия списка, часто очень полезно
+[1, 2, 3, 4, 6]
+>>> s[1:] # все элементы кроме первого
+[2, 3, 4, 6]
+>>> s[-3:] # последние 3 элемента
+[3, 4, 6]
+>>> s[2:-2] #откидываем первые и последние 2
+[3]
+>>> s[::2] #парные элементы
+[1, 3, 6]
+>>> s[1:4:2] #элементы с первого по четвертый с шагом 2
+[2, 4]
+
+21:28 16.02.2018
+150
+150
+[[3.73, 7310.70074265], [3.73117969, 92.86187201], [3.7443999, 1680.10474214], [3.75, 13], [3.751, 156], [3.75380189, 17.6414161], [3.7592, 1235.9950273], [3.75920001, 365.57973639], [3.75940474, 219.72604576]]
+-----------
+[[3.72008, 107.80657115], [3.72, 18.6], [3.71446459, 1.18879075], [3.71, 1347.90026954], [3.7054558, 1], [3.7021007, 1.61390743], [3.7, 114.73469331], [3.69, 60], [3.6885428, 374.74926]]
+!!!!!!!!!
+>>> 
+
+21:40 16.02.2018
+====== RESTART: C:\Users\Алексей\Desktop\работа\Python1\16001YouBit.py ======
+LOW: 3.36000000
+HIGH: 4.28400011
+AVG: 3.82200005
+VOL: 71088823.05946743
+LAST: 3.72000000
+SELL: 3.72000000
+BUY: 3.71446459
+Fri Feb 16 21:17:09 2018
+>>> 
+
+Depth: https://yobit.net/api/2/liza_rur/depth
+Ticker: https://yobit.net/api/2/liza_rur/ticker
+Trades: https://yobit.net/api/2/liza_rur/trades
+Fee: https://yobit.net/api/2/liza_rur/fee
+
+
+7:43 18.02.2018
+Запустил
+import win32com.client
+Excel = win32com.client.Dispatch("Excel.Application")
+
+Ошибки не вызвало ! Может, всего и надо было, как перезагрузить компьютер?
+10:39 18.02.2018
+https://metanit.com/python/tutorial/4.2.php
+
+вставка в ткст файл!
+
+13:31 19.02.2018
+https://yobit.io/ru/api/
+
+Info: https://yobit.net/api/3/info
+
+
+Depth: https://yobit.net/api/3/depth/ltc_btc-nmc_btc
+Ticker: https://yobit.net/api/3/ticker/ltc_btc-nmc_btc
+Trades: https://yobit.net/api/3/trades/ltc_btc-nmc_btc
+
+17:43 19.02.2018
+
+note=[];
+
+note.push(
+["btc_rur",   //  пара
+636000, //   high
+605682.65046473,  //  "low"
+"avg":620841.32523236,"vol":56496470.22722721,"vol_cur":90.81447186,"last":622434.89021956,"buy":621059.00000001,"sell":622494.89021955,"updated":1519038135
+]
+);
+
+['btc', 'liza', 'vntx', 'eth', 'lcc', 'usd', 'dft', 'etc', 'putin', 'doge', 'trx'],
+['btc', 'liza', 'vntx', 'eth', 'lcc', 'usd', 'dft', 'etc', 'putin', 'doge', 'trx'],
+['btc', 'liza', 'vntx', 'eth', 'lcc', 'usd', 'dft', 'etc', 'putin', 'doge', 'trx'],
+
+archive=[];
+archive.push
+
+
+14:07 20.02.2018
+Шаблон для записи:
+1. можно записывать для каждой валюты, можно не шифровать, записывать прямо. А многочисленные записи, уже шифровать надо. Чтобы кратко.
+model200218=[
+['btc_rur', [620841, 0, 10, 'pr'], [56496470, 0, 10, 'pr'],  [9081447, -5, 10, 'pr'], [1519038135, 0, 10, 'sm']]
+];
+
+14:27 05.03.2018
+Сегодня пока только HTML конспектирую. Мозги пока не очень варят
+http://htmlbook.ru/html/INPUT
+http://htmlbook.ru/html/attr/common
+http://htmlbook.ru/html/attr/event
+http://htmlbook.ru/samcss/vvedenie-v-css
+https://webref.ru/layout/howtocodeinhtml/chapter2
+
+
+9:20 06.03.2018
+https://habrahabr.ru/company/netologyru/blog/327294/
+10:07 06.03.2018
+http://htmlbook.ru/samcss/sposoby-dobavleniya-stiley-na-stranitsu
+10:41 06.03.2018
+https://webref.ru/layout/howtocodeinhtml/chapter12
+11:33 06.03.2018
+https://webformyself.com/vvedenie-v-angular-js/
+
+20:08 10.03.2018
+http://www.novichkoff.ru/wordpress-skachivaem-iz-interneta-i-ustanavlivaem-na-svoj-kompyuter.html
+
+17:08 14.03.2018
+https://codex.wordpress.org/Первые_шаги_с_WordPress
+https://codex.wordpress.org/Installing_WordPress
+
+10:29 28.03.2018
+https://monsterlessons.com/project/lessons/obmien-dannymi-miezhdu-kontrollierami-v-angularjs

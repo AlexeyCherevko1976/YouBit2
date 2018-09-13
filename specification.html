@@ -1,0 +1,172 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+
+  <!-- подключаем стили Mocha, для отображения результатов -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/2.1.0/mocha.css">
+  <!-- подключаем библиотеку Mocha -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/2.1.0/mocha.js"></script>
+  <!-- настраиваем Mocha: предстоит BDD-тестирование -->
+  <script>
+    mocha.setup('bdd');
+  </script>
+
+  <!-- подключаем chai -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/2.0.0/chai.js"></script>
+  <!-- в chai есть много всего, выносим assert в глобальную область -->
+  <script>
+    var assert = chai.assert;
+  </script>
+</head>
+<!-- <script src="main.js"></script> -->
+  <script src="main.js">
+    
+  
+    function square(number) {
+    return number*number;
+  }
+  </script>
+  <script src="baseSpecification.txt"></script>
+  
+<body bgcolor="#EDEDED" text="#000000" link="#000000" topmargin="0" leftmargin="0">
+
+<!-- Анализируемая функция  -->
+  
+
+  <!-- в этом скрипте находятся спеки -->
+<script>
+// C:\Users\Алексей\Desktop\работа\Interpretator - исходник
+// for (var key in currency){
+//     console.log(key);
+//     console.log(currency[key]);
+//     console.log('');
+// }
+
+var listFavorites=calc.selectCurrence(currency, "BTC");
+//var listFavorites=calc.selectCurrence(currency, "RUB");
+
+//console.log(listFavorites);
+/*for (var key in listFavorites){
+    //console.log(listFavorites[key]);
+    console.log(listFavorites[key]['vol_curr']);
+    console.log('-----');
+}*/
+
+describe("compareNumeric(a, b)", function() { 
+function compareNumeric(a, b) {
+  if (a[1] > b[1]) return 1;
+  if (a[1] < b[1]) return -1;
+}
+
+var a1=[
+["GNT_BTC", "0.10630066"],
+["DXT_BTC", "0.75045131"],
+["ZRX_BTC", "0.1723919"],
+["OMG_BTC", "0.68172456"],
+["GAS_BTC", "0.27221013"]
+]
+
+  
+    it("compareNumeric(a1[0], a1[1])==-1", function() {
+      assert.equal(compareNumeric(a1[0], a1[1]), -1); 
+    });
+
+    it("compareNumeric(a1[1], a1[0])==1", function() {
+      assert.equal(compareNumeric(a1[1], a1[0]), 1); 
+    });
+ 
+ a1.sort(compareNumeric);
+ console.log(a1);
+ 
+})  
+
+
+
+describe("var str1=new calc.Inquiry();", function() { 
+
+  var str1=new calc.Inquiry();
+  //str1.string="348+78*56-67*45-445/5";    
+      it("str1.selectCurrence(currency) =", function() {
+        assert.equal(str1.selectCurrence(currency), 'unde');     
+      
+      });
+
+ 
+})
+
+/*describe("square(number)", function() {   
+
+      it("square(number)", function() {
+        var test1=calc.square(12);
+               
+        assert.equal(test1, 144);
+      });
+      
+
+
+})*/
+
+
+/*
+describe("doTextOfArray(arrayRandome)", function() {
+ 
+  it("doTextOfArray(arrayRandome)", function() {
+    var arrayTest=[9062252.1, 3717038.87, 7219461.51, 4936066.75, 5641451.14];
+    value=doTextOfArray(arrayTest);
+    console.log(value);
+    assert.equal(value, '9062252.1<BR>3717038.87<BR>7219461.51<BR>4936066.75<BR>5641451.14<BR>');
+  });
+
+})
+*/
+
+
+
+
+/*describe("podnosTabliz(options)", function() {
+
+
+it("podnosTabliz({D:500})", function() {
+  dataFiring={
+  numberCharge: 1,  // Номер заряда
+  D:500, // Дальность стрельбы, м
+  H: 60,  // Высота цели, м
+  Wz: 5, // боковой баллистический ветер, м/с
+  Wx: 10,  // продольный баллистический ветер, м/с
+  dH: 10, // отклонение наземного давления воздуха, мм.рт.ст.
+  dTv: 5,  // баллистическое отклонение температуры воздуха (С)
+  dTz: -3,  // отклонение температуры заряда (С)
+  dM : 1,    // отклонение знака массы снаряда
+  dV0: 1   // отклонение начальной скорости снаряда, м/c
+};
+    assert.deepEqual(podnosTabliz(dataFiring), [445, 402]);
+  });
+
+
+
+
+
+});*/
+
+
+
+
+
+
+</script>
+
+  <!-- в элементе с id="mocha" будут результаты тестов -->
+  <div id="mocha"></div>
+
+  <div id="par1"></div>
+
+  <!-- запустить тесты! -->
+  <script>
+    mocha.run();
+
+  </script>
+</body>
+
+</html>
